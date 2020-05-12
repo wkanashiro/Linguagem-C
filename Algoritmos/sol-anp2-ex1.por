@@ -3,7 +3,7 @@ programa {
 		inteiro senha[6], i, j, cont = 0
 		cadeia senha_valida = "sim"
 		
-		escreva("Informe os 6 dígitos da senha:\n")
+		escreva("Informe os 6 dï¿½gitos da senha:\n")
 		para (i = 0; i <= 5; i = i + 1) {
 		    leia(senha[i])
 		}
@@ -35,10 +35,10 @@ programa {
 		}
 		
 		se (senha_valida == "sim") {
-		    escreva("Senha válida.\n")
+		    escreva("Senha vï¿½lida.\n")
 		}
 		senao {
-		    escreva("Senha inválida.\n")
+		    escreva("Senha invï¿½lida.\n")
 		}
 	}
 }
